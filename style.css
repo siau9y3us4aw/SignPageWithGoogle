@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.contianer , body {
+  box-sizing: border-box;
+  background-color: #202020;
+}
+
+.contect{
+  border: 2px solid red ;
+  width: 50%;
+  height: 60vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 100px;
+}
+.items{
+  border: 2px solid red ;
+}
+
+.login .Input_login{
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  top: 350px;
+  right: 250px;
+  background: springgreen;
+  border: none;
+}
+.login .Passowerd{
+  padding: 10px;
+  position: relative;
+  top: 195px; 
+  right: 197px;}
+
+
+.login .Email{
+  padding: 10px;
+  position: relative;
+  top: 150px;
+}
+
+.a-create{
+position: relative;
+right: 90px;
+top: 400px;
+color: #fff;
+}
+
+@media(max-width: 500px) {
+  .contect{
+    border: 2px solid blue;
+    width: 100%;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 100px;
+  }
+  .items{
+    border: 2px solid blue;
+  }
+  .login .Input_login{
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 250px;
+    background: springgreen;
+    border: none;
+  }
+}
